@@ -33,7 +33,7 @@ export const WeChatModal: React.FC<WeChatModalProps> = ({ isOpen, onClose }) => 
           <img
             alt="WeChat"
             className="w-8 h-8 object-contain"
-            src="https://lh3.googleusercontent.com/aida/AEtjO1Upbtb5RImLRaY75WIRQO3ZUwO-1m0422-vLwMdLV28Rj6LHQDA1hvTRGU8XOHa7EXD5rg5wp68J0GtLlBHh4TAO6ffc4qUZsWXI6j1mNUmPNkXbaTu5CdNEmQwKqkeLqph1pgVqE2wua43i_GpmHb_0xL8QsiOSmJN_Y3XRLG45m7njZ6MW8wdEajhAqAeTRwDkIQ7VPfSJIOd3Ujs-sacSm1BaPfGSWwM3mC6nBNNmA"
+            src="/src/assets/wechat.png"
           />
         </div>
 

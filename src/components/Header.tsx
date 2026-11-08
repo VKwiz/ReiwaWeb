@@ -179,7 +179,7 @@ export const Header: React.FC<HeaderProps> = ({
                   <img
                     alt="WeChat"
                     className="w-6 h-6 object-contain mb-1 group-hover:scale-110 transition-transform"
-                    src="https://lh3.googleusercontent.com/aida/AEtjO1Upbtb5RImLRaY75WIRQO3ZUwO-1m0422-vLwMdLV28Rj6LHQDA1hvTRGU8XOHa7EXD5rg5wp68J0GtLlBHh4TAO6ffc4qUZsWXI6j1mNUmPNkXbaTu5CdNEmQwKqkeLqph1pgVqE2wua43i_GpmHb_0xL8QsiOSmJN_Y3XRLG45m7njZ6MW8wdEajhAqAeTRwDkIQ7VPfSJIOd3Ujs-sacSm1BaPfGSWwM3mC6nBNNmA"
+                    src="/src/assets/wechat.png"
                   />
                   <span className="text-xs font-bold tracking-tight">{t.actions.wechatConsult}</span>
                 </button>
