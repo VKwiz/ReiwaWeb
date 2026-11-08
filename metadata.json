@@ -1,0 +1,8 @@
+{
+  "name": "Stitch Web App",
+  "description": "Responsive web application styled with Tailwind CSS based on Stitch design specifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
