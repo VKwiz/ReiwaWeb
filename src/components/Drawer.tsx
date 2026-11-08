@@ -163,7 +163,7 @@ export const Drawer: React.FC<DrawerProps> = ({
                 <img
                   alt="WeChat"
                   className="w-5 h-5 object-contain brightness-0 invert"
-                  src="https://lh3.googleusercontent.com/aida/AEtjO1UiGUR_ZM2MrA1PnZ-2K_djtPnERHmRpZLktJ2i5jBKKn4w36v789y-_t4ILLLrTQfbzT7-YGFNoziUhScDTm_UzGZu2hP9SVxd2W-8QiTWClhcEOiuPkhfCcUxAAMUfNvEfCbUklhm6OA4Y4wPyEzX1EPrCsA6kOEsUwYXZI3x8vPj6Hz80QVBjb0guDaXpUo94M9IBqoWC1F6IkW6MVm34ACeGmgoU33DV_wAdt8xZg"
+                  src="./assets/wechat.png"
                 />
               </div>
               <div>

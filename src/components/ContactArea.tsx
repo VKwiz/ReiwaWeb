@@ -44,13 +44,13 @@ export const ContactArea: React.FC<ContactAreaProps> = ({
                   className="inline-flex items-center space-x-2 text-xl sm:text-2xl font-black text-[#FF9900] hover:text-[#E68A00] transition"
                   href="mailto:reiwagodo@gmail.com"
                 >
-                  <span className="p-1.5 rounded-full bg-[#FF9900] text-white flex items-center justify-center shrink-0">
+                  <span className="p-1.5 rounded-full bg-[#532200] text-white flex items-center justify-center shrink-0">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                       <rect height="16" rx="2" width="20" x="2" y="4"></rect>
                       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                     </svg>
                   </span>
-                  <span>reiwagodo@gmail.com</span>
+                  <span className="text-[#532200]">reiwagodo@gmail.com</span>
                 </a>
               </div>
               <div className="flex items-center space-x-2">
