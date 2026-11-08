@@ -163,7 +163,7 @@ export const Drawer: React.FC<DrawerProps> = ({
                 <img
                   alt="WeChat"
                   className="w-5 h-5 object-contain brightness-0 invert"
-                  src="/src/assets/wechat.png"
+                  src="/assets/wechat.png"
                 />
               </div>
               <div>
