@@ -81,8 +81,8 @@ export const TRANSLATIONS: Record<Language, TranslationDict> = {
     },
   },
   zh: {
-    brandName: '令和不动产',
-    announcement: '令和不动产・日本房产买卖 专注于大阪府独栋一户建、公寓、商用投资楼买卖',
+    brandName: '麗和不动产',
+    announcement: '麗和不动产・日本房产买卖 专注于大阪府独栋一户建、公寓、商用投资楼买卖',
     hours: '营业时间 09:00〜17:00 (周三定休)',
     nav: {
       home: '首页',

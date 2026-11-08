@@ -64,7 +64,7 @@ export const ContactArea: React.FC<ContactAreaProps> = ({
                   <circle cx="12" cy="12" r="10" strokeWidth="2"></circle>
                   <polyline points="12 6 12 12 16 14" strokeWidth="2"></polyline>
                 </svg>
-                <span>営業時間 09:00〜17:00 (定休日: 水曜日)</span>
+                <span>営業時間 09:00〜17:00</span>
               </p>
             </div>
 
