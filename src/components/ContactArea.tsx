@@ -39,13 +39,20 @@ export const ContactArea: React.FC<ContactAreaProps> = ({
           <div className="lg:col-span-5 flex flex-col gap-4 justify-center">
             <div className="space-y-2 pb-2 border-b border-orange-100">
               <h3 className="text-2xl font-bold text-gray-900 tracking-tight">レイワ不動産</h3>
-              <p className="text-sm text-gray-600 flex items-center space-x-1.5">
-                <svg className="w-4 h-4 text-[#FF9900] shrink-0" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
-                  <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                  <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                </svg>
-                <span>大阪府大阪市東住吉区杭全4丁目12-6</span>
-              </p>
+              <div className="flex items-center space-x-2">
+                <a
+                  className="inline-flex items-center space-x-2 text-xl sm:text-2xl font-black text-[#FF9900] hover:text-[#E68A00] transition"
+                  href="mailto:reiwagodo@gmail.com"
+                >
+                  <span className="p-1.5 rounded-full bg-[#FF9900] text-white flex items-center justify-center shrink-0">
+                    <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                      <rect height="16" rx="2" width="20" x="2" y="4"></rect>
+                      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                  </span>
+                  <span>reiwagodo@gmail.com</span>
+                </a>
+              </div>
               <div className="flex items-center space-x-2">
                 <a
                   className="inline-flex items-center space-x-2 text-xl sm:text-2xl font-black text-[#FF9900] hover:text-[#E68A00] transition"
@@ -59,6 +66,13 @@ export const ContactArea: React.FC<ContactAreaProps> = ({
                   <span>TEL: 06-6777-4124</span>
                 </a>
               </div>
+              <p className="text-sm text-gray-600 flex items-center space-x-1.5">
+                <svg className="w-4 h-4 text-[#FF9900] shrink-0" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24">
+                  <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                  <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+                <span>大阪府大阪市東住吉区杭全4丁目12-6</span>
+              </p>
               <p className="text-sm text-gray-600 flex items-center space-x-1.5">
                 <svg className="w-4 h-4 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <circle cx="12" cy="12" r="10" strokeWidth="2"></circle>

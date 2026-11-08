@@ -120,13 +120,13 @@ export default function App() {
         )}
 
         {/* Global Contact & Access Area (shown on Home, Company, and Sell pages for easy conversion) */}
-        {activeTab !== 'contact' && (
+        {/* {activeTab !== 'contact' && ( */}
           <ContactArea
             onSelectTab={handleSelectTab}
             onOpenWeChat={() => setIsWeChatOpen(true)}
             onOpenLine={() => setIsLineOpen(true)}
           />
-        )}
+        {/* )} */}
       </div>
 
       {/* Master Framework Footer */}

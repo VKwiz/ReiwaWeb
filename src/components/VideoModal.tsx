@@ -62,7 +62,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({
           <h3 className="font-bold text-sm text-gray-900 leading-snug line-clamp-2">
             {property.title}
           </h3>
-
+          {/*
           <div className="pt-1 flex gap-2">
             <button
               type="button"
@@ -79,6 +79,7 @@ export const VideoModal: React.FC<VideoModalProps> = ({
               <span>この物件について問い合わせる</span>
             </button>
           </div>
+          */}
         </div>
       </div>
     </div>

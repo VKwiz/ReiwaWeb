@@ -67,6 +67,7 @@ export const PropertyView: React.FC<PropertyViewProps> = ({
         </p>
 
         {/* Category Filter Tabs */}
+        {/*
         <div className="flex flex-wrap items-center justify-center gap-2 mt-6">
           {[
             { id: 'all', label: 'すべての物件' },
@@ -91,6 +92,7 @@ export const PropertyView: React.FC<PropertyViewProps> = ({
             </button>
           ))}
         </div>
+        */}
       </div>
 
       {/* Responsive YouTube Shorts Grid */}
